@@ -1,0 +1,15 @@
+C:\Users\parad\source\repos\FOOP202Labsheet1\Bands\bin\Debug\Bands.exe.config
+C:\Users\parad\source\repos\FOOP202Labsheet1\Bands\bin\Debug\Bands.exe
+C:\Users\parad\source\repos\FOOP202Labsheet1\Bands\bin\Debug\Bands.pdb
+C:\Users\parad\source\repos\FOOP202Labsheet1\Bands\obj\Debug\Bands.csprojAssemblyReference.cache
+C:\Users\parad\source\repos\FOOP202Labsheet1\Bands\obj\Debug\MainWindow.g.cs
+C:\Users\parad\source\repos\FOOP202Labsheet1\Bands\obj\Debug\App.g.cs
+C:\Users\parad\source\repos\FOOP202Labsheet1\Bands\obj\Debug\Bands_MarkupCompile.cache
+C:\Users\parad\source\repos\FOOP202Labsheet1\Bands\obj\Debug\Bands_MarkupCompile.lref
+C:\Users\parad\source\repos\FOOP202Labsheet1\Bands\obj\Debug\MainWindow.baml
+C:\Users\parad\source\repos\FOOP202Labsheet1\Bands\obj\Debug\Bands.g.resources
+C:\Users\parad\source\repos\FOOP202Labsheet1\Bands\obj\Debug\Bands.Properties.Resources.resources
+C:\Users\parad\source\repos\FOOP202Labsheet1\Bands\obj\Debug\Bands.csproj.GenerateResource.cache
+C:\Users\parad\source\repos\FOOP202Labsheet1\Bands\obj\Debug\Bands.csproj.CoreCompileInputs.cache
+C:\Users\parad\source\repos\FOOP202Labsheet1\Bands\obj\Debug\Bands.exe
+C:\Users\parad\source\repos\FOOP202Labsheet1\Bands\obj\Debug\Bands.pdb
