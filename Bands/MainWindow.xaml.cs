@@ -111,5 +111,10 @@ namespace Bands
 
             return temp;
         }
+
+        private void AlbumsLBx_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            Album a = albumsLBx.SelectedItem as Album;
+        }
     }
 }

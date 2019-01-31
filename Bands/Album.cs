@@ -12,6 +12,7 @@ namespace Bands
         public DateTime YearReleased { get; set; }
         public int Sales { get; set; }
         Random rand = new Random();
+        int yearsOut;
 
         public Album(string name, int startingYear)
         {
@@ -26,9 +27,17 @@ namespace Bands
             return info;
         }
 
+        int getYearsSinceReleased()
+        {
+            DateTime now;
+            now = DateTime.Now;
+            yearsOut = now.Year - YearReleased.Year;
+            return yearsOut;
+        }
+
         public override string ToString()
         {
-            return AlbumName;
+            return string.Format($"{AlbumName} Years out: { getYearsSinceReleased()}");
         }
     }
 }
