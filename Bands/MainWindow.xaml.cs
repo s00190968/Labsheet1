@@ -1,6 +1,8 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -115,6 +117,19 @@ namespace Bands
         private void AlbumsLBx_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             Album a = albumsLBx.SelectedItem as Album;
+            albumInformationTxBl.Text = a.ToString();
+        }
+
+        private void SaveBandsBtn_Click(object sender, RoutedEventArgs e)
+        {
+            //list of movies to string
+            string json = JsonConvert.SerializeObject(allBands, Formatting.Indented);
+
+            //write to file
+            using (StreamWriter sw = new StreamWriter(@"Bands.json"))//file should go to the bin folder of the solution
+            {
+                sw.Write(json);
+            }
         }
     }
 }
